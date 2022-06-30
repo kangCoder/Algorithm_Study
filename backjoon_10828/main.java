@@ -1,7 +1,0 @@
-package backjoon_10828;
-
-public class main {
-    public static void main(String[] args) {
-        
-    }
-}
