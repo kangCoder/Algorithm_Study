@@ -10,7 +10,7 @@ public class Main {
     static long[][] D;
 
     public static long C(long[][] D, int N) {
-        D[1][0] = 0;
+        D[1][0] = 0; // 0
         for (int i = 1; i <= 9; i++)
             D[1][i] = 1;
         // N이 1일 때 올 수 있는 수들 -> 0을 제외하고 1~9까지는 1로 초기화 (기저 상태)
