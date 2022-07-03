@@ -1,7 +1,8 @@
-// 가장 긴 증가하는 부분 수열
+// 가장 긴 증가하는 부분 수열 2
 // 수열 A가 주어졌을 때, 가장 긴 증가하는 부분 수열의 길이 구하기
 // 예시) A = {10,20,10,30,20,50} 일 때, 가장 긴 증가하는 부분 수열의 길이는 4 (10,20,30,50)
-package week1.baekjoon_11053;
+// 근데 nlogn 방식으로 풀어야 함
+package week1.baekjoon_12015;
 
 import java.util.*;
 
@@ -22,8 +23,8 @@ public class Main {
 
     public static int C(int[] A, int N) {
         if (N == 1) return 1;
-        S.add(A[0]);
 
+        S.add(A[0]);
         for (int i = 1; i < N; i++) {
             if (S.get(S.size() - 1) < A[i]) {
                 S.add(A[i]);
