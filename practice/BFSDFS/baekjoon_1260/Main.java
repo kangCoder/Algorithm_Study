@@ -20,7 +20,7 @@ public class Main {
         System.out.print(V + " ");
         for (int i = 0; i < list[V].size(); i++) {
             int next = list[V].get(i); // 노드 V와 연결돼있는 다음 노드
-            DFS(next); // 재귀 호출로 V와 연결돼있는 next와 연결돼있는 .... 끝까지 타고 간다
+            DFS(next); // 재귀 호출로 V와 연결돼있는 next와 연결돼있는 노드와 연ㄱ...해서 끝까지 타고 간다
         }
     }
 
