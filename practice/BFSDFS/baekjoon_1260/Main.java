@@ -2,7 +2,7 @@
  * DFS와 BFS
  * 단순 그래프 탐색 구현
  */
-package practice.baekjoon_1260;
+package practice.BFSDFS.baekjoon_1260;
 
 import java.io.BufferedReader;
 import java.io.IOException;

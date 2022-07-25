@@ -2,7 +2,7 @@
  * 무방향 그래프가 주어졌을 때, 그 그래프의 Connected Component의 개수 구하기
  * 서로 연결돼어있는, 즉 서로에게 갈 수 있는 path가 있는 노드들의 묶음의 개수 구하기
  */
-package practice.baekjoon_11724;
+package practice.BFSDFS.baekjoon_11724;
 
 import java.io.BufferedReader;
 import java.io.IOException;
