@@ -49,7 +49,6 @@ public class Solution {
 
         answer = new int[car.size()];
         List<Integer> list = new ArrayList<>(car);
-        Collections.sort(list);
         int count = 0;
         for(int number : list) {
             int total = totalTime.get(number);
